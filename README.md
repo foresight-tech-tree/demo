@@ -2,7 +2,7 @@
 
 This is a template for [Foresight Institute's Tech Tree Project](https://foresight.org/tech-tree/).
 
-It uses a customised version of the excellent [cytoscape.js-expand-collapse](https://github.com/iVis-at-Bilkent/cytoscape.js-expand-collapse) extension.
+The example tree in this demo is hosted at this [Github page](https://foresight-tech-tree.github.io/demo/).
 
 ## Node
 Each node can be defined in a `.js` file as an object with the following fields:
