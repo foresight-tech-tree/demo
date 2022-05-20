@@ -1,0 +1,69 @@
+import node2 from "./compound2/node2.js";
+import node3 from "./compound2/node3.js";
+
+const compound2 = {
+    "data": {
+        "id": "compound2",
+        "description": "Compound node 2",
+        "history": [
+            "1970 - The beginning of time",
+            "2022 - Present day"
+        ],
+        "companies": [
+            {
+                "name": "Company 2",
+                "url": "https://example.com"
+            },
+            {
+                "name": "Company 2a",
+                "url": "https://example.com"
+            }
+        ],
+        "labs": [
+            {
+                "name": "Lab 2",
+                "url": "https://example.com"
+            },
+            {
+                "name": "Lab 2a",
+                "url": "https://example.com"
+            }
+        ],       
+        "people": [
+            {
+                "name": "Person 2",
+                "url": "https://example.com"
+            },
+            {
+                "name": "Person 2a",
+                "url": "https://example.com"
+            }
+        ],     
+        "involvement": [
+            {
+                "name": "Meetup 2",
+                "url": "https://example.com"
+            },
+            {
+                "name": "Meetup 2a",
+                "url": "https://example.com"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Resource 2",
+                "url": "https://example.com"
+            },
+            {
+                "name": "Resource 2a",
+                "url": "https://example.com"
+            }
+        ],  
+    }
+};
+
+export default [
+    compound2,
+].concat(node2)
+.concat(node3)
+.flat();
